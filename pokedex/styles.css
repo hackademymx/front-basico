@@ -1,0 +1,23 @@
+.pokemon__card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    background-color: #005f73;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#pokemon__group {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.pokemon__card img {
+    width: 12rem;
+    margin: 0 auto;
+    display: block;
+}
